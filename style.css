@@ -64,8 +64,7 @@ nav a:hover{
 
 section{
     grid-area: section;
-    background-color: aquamarine;
-    background-color: white;
+    background-color: #093b7c;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,13 +77,25 @@ section img{
 section img:hover{
     width: 320px;
 }
-    
-    aside{
-        grid-area: aside;
-        background-color: blueviolet;
-    }
-    
-    footer{
-        grid-area: footer;
-        background-color: pink;
-    }
+
+aside{
+    grid-area: aside;
+    background-color: #093b7c;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 0 50px;
+}
+aside p{
+    color: white;
+    font-family: 'Roboto';
+}
+aside p span{
+    font-style: italic;
+    color: #f67834;
+}
+
+footer{
+    grid-area: footer;
+    background-color: pink;
+}
